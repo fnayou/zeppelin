@@ -1,0 +1,51 @@
+{
+    "name": "fnayou/zeppelin",
+    "type": "library",
+    "description": "Zeppelin is a simple Guzzle configurator allowing parse and load configuration and api description.",
+    "keywords": [
+        "guzzle",
+        "configuration",
+        "description"
+    ],
+    "homepage": "https://gitlab.com/fnayou/zeppelin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aymen FNAYOU",
+            "email": "fnayou.aymen@gmail.com",
+            "homepage": "http://aymen-fnayou.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~5.6|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0||~5.0",
+        "squizlabs/php_codesniffer": "~2.3",
+        "symfony/var-dumper": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fnayou\\Zeppelin\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fnayou\\Zeppelin\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "sniff": "phpcs src/ --standard=PSR2 --report=summary",
+        "format": "phpcbf --standard=psr2 src/"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
