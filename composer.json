@@ -18,7 +18,10 @@
         }
     ],
     "require": {
-        "php": "~5.6|~7.0"
+        "php": "~5.6|~7.0",
+        "symfony/options-resolver": "^3.1",
+        "symfony/filesystem": "^3.1",
+        "symfony/yaml": "^3.1"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0||~5.0",
@@ -40,6 +43,7 @@
         "sniff": "phpcs src/ --standard=PSR2 --report=summary",
         "format": "phpcbf --standard=psr2 src/"
     },
+    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"

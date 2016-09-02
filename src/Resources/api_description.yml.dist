@@ -1,0 +1,21 @@
+operations: # required node
+    user:
+        httpMethod: POST # required option
+        uri: /user # required option
+        responseModel: jsonResponse
+        parameters: # required node
+            X-APPID:
+                type: string
+                description: "the application id."
+                location: header
+                required: true
+            user_id:
+                type: string
+                description: "the user id."
+                location: json
+                required: true
+models:
+    jsonResponse:
+        type: object
+        additionalProperties:
+            location: json
