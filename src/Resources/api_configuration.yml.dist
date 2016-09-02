@@ -1,15 +1,18 @@
-# todo : setting up full configuration
-# guzzle client config
-client:
-    base_url: 'https://api.my-awesome-application.com/'
-    version: 1
-    defaults:
+# todo : setting up full guzzle configuration
+
+# all optional options/node will be override with new default values
+
+## guzzle client configuration
+client: # required node
+    base_url: 'https://api.my-awesome-application.com/' # required option
+    version: 1 # required option
+    defaults: # required option
         timeout: 10
         allow_redirects: false
         headers:
             user_agent: 'my-awesome-application-sdk-php/1.0'
             content_type: 'application/json; charset=utf-8'
 
-# path to guzzle description file
-description_file_path: '/path/to/api_description.yml'
+## path to api description file
+description_file_path: '/path/to/api_description.yml' # required option
 

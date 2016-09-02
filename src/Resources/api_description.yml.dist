@@ -1,9 +1,9 @@
-operations:
-    myApi:
-        httpMethod: POST
-        uri: /user
+operations: # required node
+    user:
+        httpMethod: POST # required option
+        uri: /user # required option
         responseModel: jsonResponse
-        parameters:
+        parameters: # required node
             X-APPID:
                 type: string
                 description: "the application id."
