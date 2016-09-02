@@ -1,13 +1,15 @@
 {
     "name": "fnayou/zeppelin",
     "type": "library",
-    "description": "Zeppelin is a simple Guzzle configurator allowing parse and load configuration and api description.",
+    "description": "Simple Guzzle configurator using client configuration and api descriptions files.",
     "keywords": [
         "guzzle",
         "configuration",
-        "description"
+        "description",
+        "api",
+        "web-services"
     ],
-    "homepage": "https://gitlab.com/fnayou/zeppelin",
+    "homepage": "https://github.com/fnayou/zeppelin",
     "license": "MIT",
     "authors": [
         {
