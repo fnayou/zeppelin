@@ -108,6 +108,6 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 [link-author]: https://gitlab.com/fnayou
-[configuration-sample-link]: https://gitlab.com/fnayou/zeppelin/blob/master/src/Resources/api_configuration.yml.dist
-[api-description-sample-link]: https://gitlab.com/fnayou/zeppelin/blob/master/src/Resources/api_description.yml.dist
+[configuration-sample-link]: Zeppelin/src/Resources/api_configuration.yml.dist
+[api-description-sample-link]: Zeppelin/src/Resources/api_description.yml.dist
 [guzzle-link]: https://github.com/guzzle/guzzle
