@@ -43,6 +43,7 @@
         "sniff": "phpcs src/ --standard=PSR2 --report=summary",
         "format": "phpcbf --standard=psr2 src/"
     },
+    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"

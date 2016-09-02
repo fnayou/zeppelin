@@ -1,0 +1,21 @@
+operations:
+    myApi:
+        httpMethod: POST
+        uri: /user
+        responseModel: jsonResponse
+        parameters:
+            X-APPID:
+                type: string
+                description: "the application id."
+                location: header
+                required: true
+            user_id:
+                type: string
+                description: "the user id."
+                location: json
+                required: true
+models:
+    jsonResponse:
+        type: object
+        additionalProperties:
+            location: json
