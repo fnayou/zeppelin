@@ -101,13 +101,15 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 
 ## Credits
 
-- [Aymen FNAYOU][link-author]
+- [Aymen FNAYOU][link-author] - [GitLab][link-author-gitlab] - [GitHub][link-author-github]
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[link-author]: https://gitlab.com/fnayou
-[configuration-sample-link]: Zeppelin/src/Resources/api_configuration.yml.dist
-[api-description-sample-link]: Zeppelin/src/Resources/api_description.yml.dist
+[link-author]: https://aymen-fnayou.com
+[link-author-gitlab]: https://gitlab.com/fnayou
+[link-author-github]: https://github.com/fnayou
+[configuration-sample-link]: https://github.com/fnayou/zeppelin/blob/master/src/Resources/api_configuration.yml.dist
+[api-description-sample-link]: https://github.com/fnayou/zeppelin/blob/master/src/Resources/api_description.yml.dist
 [guzzle-link]: https://github.com/guzzle/guzzle
