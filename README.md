@@ -1,5 +1,7 @@
 # Zeppelin
 
+[Deprecated and Unmaintained]
+
 Simple [Guzzle][guzzle-link] configurator using **client configuration** and **api descriptions** files.
   1. All you have to do is to create two files :
       - the Guzzle client configuration (api url, version, user agent, etc.)
